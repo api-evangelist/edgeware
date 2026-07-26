@@ -1,7 +1,27 @@
 aid: edgeware
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/edgeware.png
 name: Edgeware
-description: 'Edgeware is a company surfaced as a portfolio company of creandum and added to the API Evangelist
-  network as a stub for enrichment. Sector: other. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Edgeware AB was a Swedish video-delivery technology company founded in
+  2004 and headquartered in Stockholm, known for its TV CDN, origin and media server,
+  and streaming video-delivery products used by telecom operators and broadcasters
+  to run OTT and IPTV services. Backed by Creandum, it listed on Nasdaq Stockholm in
+  2016 and was acquired by Agile Content (Agile Content S.A.) in 2020. The Edgeware
+  brand has since been consolidated into AgileTV: edgeware.tv now redirects to
+  agiletv.com/edgeware/, and its developer/technical documentation lives under
+  docs.agilecontent.com (AgileTV Origin & Media Server, CDN Solutions, Subtitling).
+  Edgeware no longer operates as an independent company or publishes an independent
+  developer API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/edgeware/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,15 +29,36 @@ x-backed-by:
 - creandum
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: Agile Content
+x-acquired-year: 2020
+x-successor-brand: AgileTV
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
-- Other
+- Video
+- CDN
+- Streaming
+- Media
+- Television
+- IPTV
+- OTT
+- Sweden
 apis: []
+common:
+- type: Website
+  url: https://agiletv.com/edgeware/
+- type: Documentation
+  url: https://docs.agilecontent.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
